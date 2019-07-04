@@ -2,7 +2,7 @@
 
 /* 回答はここに書いてね */
 
-.q7__inner {
+.q7__inner.is-float {
   overflow: hidden;
 }
 
@@ -21,7 +21,7 @@
   width: 225px;
 }
 
-.q7__inner {
+.q7__inner.is-table {
   display: table;
 }
 
@@ -33,6 +33,10 @@
   display: table-cell;
   vertical-align: middle;
   padding-left: 50px;
+}
+
+.q7__inner.is-inline {
+  font-size: 0;
 }
 
 
@@ -58,7 +62,7 @@
   box-sizing: border-box;
 }
 
-.q7--flex .q7__inner {
+.q7--flex .q7__inner.is-flex {
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
@@ -79,12 +83,12 @@
   width: 300px;
 }
 
-.q7 .q7__inner {
+/* .q7 .q7__inner {
   margin: 0 auto;
   padding: 20px;
   width: 500px;
   background-color: #ECF1F2;
-}
+} */
 
 .q7 .q7__inner.is-full {
   width: 100%;

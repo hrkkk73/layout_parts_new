@@ -7,24 +7,31 @@
   table-layout: fixed;
 }
 
-.q3_table th {
+.q3_thead_inner th {
   background-color: #24a;
   color: #fff;
   font-size: 18px;
   line-height: 26px;
 }
 
-.q3_table td {
+.q3_tbody_inner th {
+  background-color: #24a;
+  color: #fff;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.q3_tbody_inner td {
   font-size: 16px;
   line-height: 22px;
   text-align: center;
 }
 
-.q3_table tr:nth-child(2n-1) {
+.q3_tbody_inner tr:nth-child(2n) {
   background-color: #ECF1F2;
 }
 
-.q3_table tr:last-child {
+.q3_tbody_inner tr:last-child {
   border-top: 2px dashed #000;
 }
 .q3_table th, .q3_table td {

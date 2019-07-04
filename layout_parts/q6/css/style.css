@@ -1,22 +1,36 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.box_text {
-  width: 90px;
-  margin: 0 auto;
-  padding: 10px 0;
+
+.q6__box.box1 .text_box {
   text-align: center;
+}
+
+.q6__box.box1 .box_text-align {
+  display: inline-block
+}
+
+.q6--horizontal .box_text-align {
+  width: 90px;
+  padding: 10px 0;
   background-color: #e6f2ff;
 }
 
-.q6.q6--around {
+.q6__box.box2 .box_text-margin {
+  width: 90px;
+  padding: 10px 0;
+  background-color: #e6f2ff;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.q6.q6--around.table {
   display: table;
 }
 
 .display {
   display: table-cell;
   text-align: center;
-  margin: 0 auto;
   vertical-align: middle;
 }
 
@@ -26,7 +40,7 @@
   background-color: #fff;
 }
 
-.q6.q6--around {
+.q6.q6--around.flex {
   display: flex;
   align-items: center;
   justify-content: center;
