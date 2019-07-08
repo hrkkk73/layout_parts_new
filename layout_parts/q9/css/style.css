@@ -43,7 +43,7 @@
 
 .q9_transition_text_inner {
   position: absolute;
-  top: 55%;
+  bottom: 0;
   left: 0;
   width: 100%;
   padding: 20px;
@@ -52,9 +52,6 @@
   box-sizing: border-box
 }
 
-.q9_transition:hover .q9_transition_text_inner {
-  bottom: 0;
-}
 
 
 /* アニメーション */

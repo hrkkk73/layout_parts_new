@@ -2,11 +2,11 @@
 
 /* 回答はここに書いてね */
 
-.q6__box.box1 .text_box {
+.q6__box .text_box {
   text-align: center;
 }
 
-.q6__box.box1 .box_text-align {
+.q6__box .box_text-align {
   display: inline-block
 }
 
@@ -16,7 +16,7 @@
   background-color: #e6f2ff;
 }
 
-.q6__box.box2 .box_text-margin {
+.q6__box .box_text-margin {
   width: 90px;
   padding: 10px 0;
   background-color: #e6f2ff;
